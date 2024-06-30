@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "test"
+version = "0.0.1"
+description = ""
+authors = ["sultan <sultankurbnov404@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.111.0"
+beanie = "^1.26.0"
+pydantic-settings = "^2.3.4"
+websockets = "^12.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
